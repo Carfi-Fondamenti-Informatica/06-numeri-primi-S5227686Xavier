@@ -1,7 +1,3 @@
-//
-// Created by Kenneth Haga on 01/12/22.
-//
-
 #ifndef O_LIB_H
 #define O_LIB_H
 
