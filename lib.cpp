@@ -1,10 +1,17 @@
 #include "lib.h"
-bool numeri_primi(int i, int n){
-    if ((n%2==0)&&(n!=i)){
-        return false;
-    }else if((n%i==0)&&(n==i)){
+
+bool numeri_primi(int a){
+    int div=1,conta=0;
+    
+    while(conta<=1 && div<=2){
+        if (n%div==0){
+            conta++;
+        }
+        div++;
+    }
+    if (conta==1){
         return true;
     }else{
-        return numeri_primi(i+1,n);
+        return false;
     }
 }
