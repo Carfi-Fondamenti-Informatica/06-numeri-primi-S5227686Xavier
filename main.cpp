@@ -11,7 +11,7 @@ int main(){
     if (a==true){
 
         cout<<"numero primo"<<endl;
-    }else{
+    }else if (a==false){
         cout<<"numero non primo"<<endl;
     }
   return 0;
