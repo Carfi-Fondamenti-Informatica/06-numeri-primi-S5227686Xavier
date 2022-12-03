@@ -3,13 +3,16 @@
 using namespace std;
 
 int main(){
-  int num;
+ int num;
+    int a;
     cout<<"inserire il numero che si vuole verificare:"<<endl;
     cin>>num;
-    if (numeri_primi(2,num)){
-        cout<<"numero primo";
+    a=numeri_primi(1,num);
+    if (a==true){
+
+        cout<<"numero primo"<<endl;
     }else{
-        cout<<"numero non primo";
+        cout<<"numero non primo"<<endl;
     }
   return 0;
 }
