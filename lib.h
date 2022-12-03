@@ -1,2 +1,2 @@
 
-bool numeri_primi (int i,int n);
+bool numeri_primi (int a);
