@@ -3,15 +3,15 @@
 using namespace std;
 
 int main(){
- int num;
-    bool a;
+ int a;
+    bool b;
     cout<<"inserire il numero che si vuole verificare:"<<endl;
-    cin>>num;
-    a=numeri_primi(1,num);
-    if (a==true){
+    cin>>a;
+    b=numeri_primi(a);
+    if (b==true){
 
         cout<<"numero primo"<<endl;
-    }else if (a==false){
+    }else if (b==false){
         cout<<"numero non primo"<<endl;
     }
   return 0;
