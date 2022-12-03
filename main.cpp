@@ -2,17 +2,18 @@
 #include "lib.h"
 using namespace std;
 
-int main(){
- int a;
-    bool b;
+int main (){
+    int num;
+    int a;
     cout<<"inserire il numero che si vuole verificare:"<<endl;
-    cin>>a;
-    b=numeri_primi(a);
-    if (b==true){
+    cin>>num;
+    a=numeri_primi(1,num);
+    if (a==true){
 
         cout<<"numero primo"<<endl;
-    }else if (b==false){
+    }else{
         cout<<"numero non primo"<<endl;
     }
-  return 0;
+    return 0;
+
 }
